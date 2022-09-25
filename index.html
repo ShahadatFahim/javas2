@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript problem solve</title>
+</head>
+<body>
+    <header>
+     <section>
+<!-- ==========================================================  -->
+    <h2>1 -2 -- Solve the problem with Javascript  to find the maximum between two numbers Or Three Number .    </h2>
+    <h2>please input two number Or Three Number  </h2>
+     <form >
+        <p>1st Number :<span id="fst">---</span></p> <input id="first" type="number" oninput="FirstValue()"  >
+        <p>2nd Number :<span id="Scnd">---</span></p> <input id="Second" type="number" oninput="SecondValue() " >
+        <p>3rd Number :<span id="trd">----</span></p><input id="Third" type="number" oninput="ThirdValue() " >
+         <h3>Mamximum Number : <span id="maximumNumber">---</span></h3>
+          <input type="submit" id="klk" ">  
+
+     </form>
+<!--   =========================================================== -->   
+    <hr>
+    </section>
+    <section>
+      <h2> 3 --- Solve the problem with Javascript  to check whether a number is negative, positive or zero.</h2>
+      <p> input any number </p>
+      <input type="number" id="npo" oninput="npnf()">
+      <p id="npos">-----</p>
+      <hr>
+    </section>
+    <section>
+    <h2>4 -- Solve the problem with Javascript  to check whether a number is divisible by 10 or not. </h2>
+     <p>Input any number </p>
+     <input type="number" id="divisible" oninput="divisibles()">
+     <p id="divisibleid">------</p>
+    </section>
+  <!-- ==================================================== -->
+    <section>
+      <hr>
+     <h2>5 , 17-- Solve the problem with Javascript  to check whether a number is even or odd.    </h2>
+     <p>Input any number </p>
+     <input type="number" id="oddEven" oninput="oddEvens()">
+     <p id="oddEve">------</p>
+    </section>
+    <!-- ================================================== -->
+    <section>
+      <h2>6---  Solve the problem with Javascript  to check whether a character is in the alphabet or not.</h2>
+      <p>Input any alphabet </p>
+      <input type="text" id="alphabetc" oninput="alphabetceck()">
+      <p id="alphabets">------</p>
+    </section>
+
+      <!-- ================================================== -->
+   
+   <section>
+     <h2>7 , 16---Solve the problem with Javascript  to check weather the temperature is hot, cold or normal. (30 <=  is hot, 25 >= is cold , anyother value is normal</h2> 
+    <p>Input any whether Value </p>
+      <input type="number" id="whether" oninput="whetherf()">
+      <p id="whethers">------</p>
+    </section>
+    <!-- ============================================ -->
+   <section>
+ <h2> 8--Given 3 subjects Math, English and Physics find the total marks and average of 3 subjects.</h2> <p>Input any whether Value </p>
+  <label for="maths">Math</label>
+     <input type="number" id="Matht" oninput="mathff()">
+  <label for="English">English</label>
+     <input type="number" id="English" oninput="englishff()">
+  <label for="Physics">Physics</label>
+     <input type="number" id="Physics" oninput="physicsff()">
+  <br>
+  <input type="submit" id="submit" value="check Result">
+      <p id="matsss">------</p>
+    </section>
+
+<section>
+  <h2>9 -- Find the random number between 1 to 10</h2>
+  <p id="rnd">------</p>
+  <input type="submit" value="clik for Random number" onclick="rndm();">
+</section>
+   
+<!-- ========================== -->
+<section>
+  <h2> 10 -- Create 3 meaningful arrays and  3 objects </h2>
+  <h3>Three Arrya</3>
+  <pre> let BangladeshCricketTeam = ["Tamim", "Mushfik","Riyad"," Mussaddek","mustafij"]; </pre>
+  <pre>let bangladeshWomanFootballTeam = ["Ritu porna", " Sorkar ", " sanjida", "rita ", "maria "];</pre>
+  <pre>let zilla = ["sylhet","dhaka","Rongpur","Borishal","Nuakhali"];</pre>
+  <h3>Three Object </3>
+    <pre>
+      let Human = {
+        name:" Jalal Ahmed",
+        age: 30,
+        hight:"5.3 inc",
+        weight: "67 kg",
+        occupation:"Teacher",
+        active: true
+      };
+    </pre>
+    <pre>
+      let laptop = {
+        name: "Dell inspire",
+        brand: "DELL",
+        Ram_GB: 6,
+        Hdd_GB: 500,
+        Processor: "Core i 3 5GU",
+        active: true
+      };
+    </pre>
+    <pre>
+      let School = {
+        name: "Mohidpur GPS",
+        post: 6,
+        teacher:4,
+        PostNull:2,
+        Sutdent:188,
+        No:116,
+        govt: true
+        
+      }
+    </pre>
+</section>
+<section>
+   <h2>11 --Create a while loop which prints values from 10 to 50 </h2>
+   <p> while( x= 10 > 50){ <span id="wh"></span>}</p>
+ </section>
+ <section>
+  <h2>12 --Create a for loop which prints values from 20 to 60</h2>
+  <p> for(i=20; i<= 60; i++){<span id="fr"></span>  }  </p>
+ </section>
+ <section>
+   <h2>13 ---Create a function of adding two numbers.</h2>
+    <label for="">input any number</label><input type="number" id="fstttt">
+    <label for="">input any number</label><input type="number" id="scndtttt">
+    <p id="ad23d">------</p>
+    <br> <input type="submit" value=" Click here" onclick="addddddd()">
+  </section>
+  <section>
+    <h2>14---- Create a function which returns a for loop which takes two parameter one is initial value & final value to return the list of number from initial to final value. (shown in class)  </h2>
+    <p> Final value 500 : please inter initial value</p> 
+    <input type="number"  onchange="twReturn(this.value)">
+    <button>just click</button>
+    <p> Two Return Value Initial Value: <span id="twp"></span> <span> Return loops value</span><span id="twpss3s"></span> <span>Total Count:</span> <span id="cntsss"></span></p>
+  </section>
+ <section>
+  <h2>15 ---- Create a function which return whether the year is leap year or not </h2>
+  <p>Please input any year Number !!! </p> 
+  <input type="number" onchange="lpyr(this.value)" >
+   <button>click any Where</button>
+   <p id="yrrslt">::------</p> 
+</section>
+<section>
+  <h2> 18 --Splice and an given array - remove two items and adding two new elements </h2>
+  <p> please input two name</p>
+  <p> Bangladesh_T20_Team = ["Sabbir" , "Litton" , "Nurul" ," mehedi" , "Riad" , "mushfiq"]; </p>
+  <input type="text" id="nmbr1s" oninput="smya(this.value)">
+  <input type="text" id="nmbr2s" oninput="rabbi(this.value)">
+  <input type="submit" value="Click here" onclick="bTeam()">
+  <p>Now Bangladesh_T20_Team: <span id="nteam"></span></p>
+</section>
+<section>
+  <h2>19---- Reverse and sort an array where arr = [2,45,4,55,12,42,34,78]</h2>
+   <button onclick="rarra()">Click here </button>
+    <p>Sorint  arr = [<span id="srtarr"> 2,45,4,55,12,42,34,78 </span> ]</p>
+   <p>arr = [ <span id="arrr"> 2,45,4,55,12,42,34,78 </span>]</p>
+</section>
+<section>
+  <h2>20 --Create a object with car and add two function in there (called methods as well) and print out the the result calling two functions using this keyword as well</h2>
+  <pre>
+    const Adress = {     
+      Vill: "  Ojanapur",
+      PostCode: 3100,
+      upozilla: sodor,
+      fullAdress: ()=>{
+       return this.Vill + " " + this.PostCode + " " + this.upozilla; 
+     },
+      villandPost: ()=>{
+       return this.vill + "  " + this.PostCode;
+      }
+      };
+  </pre>
+</section>
+<section>
+  <hr>
+  <h2> 21 -- Reverse an given string. Where, - let text = “I love coding” - after reverse a string output will be - ‘gnidoc evol i’</h2>
+ <p>Result Here </p>
+  <p id="rbsrr"></p>
+</section>
+<section>
+  <hr>
+  <h2>22 -- Create an array with list of items. Iterate the array to view the list of the items in the console using for loop. </h2>
+  <p id="sdsdsd"> --------</p>
+</section>
+  </header>
+
+
+
+
+
+ <script src="script.js"></script>
+</body>
+</html>
